@@ -1,0 +1,121 @@
+@media only screen and (max-width: 900px) {
+    .container{
+        width: 88% !important;
+        padding:0px 10px;
+        margin:auto !important;
+    }
+    .headerscroll{
+    position: relative !important;
+}
+    .navbar-toggler{
+        color:white !important;
+    }
+    .header{
+        padding: 14px 0px !important;
+    }
+    .banner{
+        padding-top:20px !important;
+    }
+    .banner-img{
+        width:80% !important;
+        margin: auto;
+    }
+    .banner-text{
+        margin-bottom: 30px !important;
+    }
+    .banner-content{
+        padding-top:40px !important;
+        margin-bottom: 40px !important;
+    }
+    p{
+        font-size: 18px !important;
+    }
+    .client-details {
+        padding: 30px 34px;
+        max-width:60% !important;
+        margin: auto;
+    }
+    .client-feedback {
+        margin-top: 30px !important;
+        max-width: 100% !important;
+    }
+    .icofont-arrow-left{
+        right: auto !important;
+        left:0 !important;
+    }
+    .icofont-arrow-right{
+        right: 0px !important;
+    }
+    .clients-btns{
+        margin-bottom: 50px !important;
+        position: relative !important;
+        top:0 !important;
+    }
+    .header_btn{
+        margin-left: 0px !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+
+    p{
+        font-size: 13px !important;
+    }
+    .banner-content h3 {
+        font-size: 11px !important;
+    }
+    .section-header-left h1{
+        font-size:30px !important;
+    }
+    .section-header-center h1{
+        font-size:30px !important;
+    }
+    .banner-content h1{
+        font-size: 30px !important;
+        line-height: 40px !important;
+
+    }
+    .banner-content h2{
+        font-size: 25px !important;
+        line-height: 39px !important;
+    }
+    .typewrite{
+        font-size: 23px !important;
+    }
+
+    .features-box .features-box-texts h4{
+        font-size: 23px !important;
+        line-height: 30px;
+    }
+    .portfolio-box-text-2 {
+        font-size: 20px !important;
+    }
+    .client-details {
+        padding: 20px 14px !important;
+        text-align: center;
+    }
+    .client-caption h3{
+        font-size: 18px !important;
+    }
+    .client-caption h4{
+        font-size: 16px !important;
+    }
+    .icofont-arrow-left{
+        width:40px !important;
+        height: 40px !important;
+        font-size: 17px !important;
+        line-height: 40px !important;
+    }
+    .icofont-arrow-right{
+        width:40px !important;
+        height: 40px !important;
+        font-size: 17px !important;
+        line-height: 40px !important;
+    }
+    .blog-box h3{
+        font-size: 20px !important;
+        line-height: 25px !important;
+    }
+    .officer-bio h4{
+        font-size: 26px !important;
+    }
+}
