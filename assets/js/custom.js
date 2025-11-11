@@ -178,17 +178,20 @@ var projectData = {
   meta1: {
     title: "Meta Ads Campaign",
     category: "Meta Ads",
-    desc: `
-<strong>Client:</strong> Sunanda Greentech (Electric Vehicle Company)<br>
+   desc: `
+<strong>Client:</strong> 
+Sunanda Greentech (Electric Vehicle Company)<br>
 <strong>Year:</strong> 2025<br>
-<strong>Role:</strong> Meta Ads Expert & Marketing Strategist<br>
+<strong>Role:</strong> Meta Ads Expert & Marketing Strategist<br><br>
+
 <strong>Description:</strong> Performance-driven ad campaigns for Electric Scooters & Rickshaws.<br>
 <strong>Overview:</strong> Managed Meta Ads for Sunanda Greentech, an EV company specializing in electric scooters and rickshaws. Executed full-funnel ad strategies with a daily ad spend of ₹6K–₹7K, targeting leads across Mohali, Zirakpur, and Chandigarh.<br>
 <strong>Key Work:</strong> Campaign setup, creative design, audience targeting, lead optimization, and ad performance tracking.<br>
 <strong>Result:</strong> Consistent lead generation, improved CTR, and strong sales growth through high-quality conversions. 🚀
 `,
+
     images: [
-      "assets/img/meta-front-1.jpeg",
+    "assets/img/meta-front-1.jpeg",
       "assets/img/meta-ev-1.jpeg",
       "assets/img/meta-ev-2.jpeg"
     ]
@@ -230,31 +233,26 @@ $(document).on("click", "#closeDetail", function () {
   $("html, body").animate({ scrollTop: $("#portfolio").offset().top - 80 }, 400);
 });
 
-// ✅ Image slider logic (Fixed)
+// image slider logic
 function showImage() {
-  if (!currentProject.length) return;
-
-  let imgHTML = `
-    <div class="carousel-wrapper" style="position:relative;overflow:hidden;width:100%;border-radius:10px;">
-      <img src="${currentProject[currentIndex]}" class="d-block w-100" style="object-fit:cover;border-radius:10px;" alt="Project Image">
-      <button id="prevImg" style="position:absolute;top:50%;left:10px;transform:translateY(-50%);background:rgba(0,0,0,0.5);color:#fff;border:none;border-radius:50%;width:36px;height:36px;font-size:20px;cursor:pointer;">❮</button>
-      <button id="nextImg" style="position:absolute;top:50%;right:10px;transform:translateY(-50%);background:rgba(0,0,0,0.5);color:#fff;border:none;border-radius:50%;width:36px;height:36px;font-size:20px;cursor:pointer;">❯</button>
-    </div>
-  `;
+  let imgHTML = "";
+  currentProject.forEach((src, i) => {
+    imgHTML += `
+      <div class="carousel-item ${i === currentIndex ? "active" : ""}">
+        <img src="${src}" class="d-block w-100" alt="Project Image">
+      </div>`;
+  });
   $("#galleryImages").html(imgHTML);
 }
 
-// ✅ Next / Prev functional buttons
-$(document).on("click", "#nextImg", function () {
-  if (currentProject.length > 1) {
-    currentIndex = (currentIndex + 1) % currentProject.length;
-    showImage();
-  }
+$("#nextImg").on("click", function () {
+  if (currentProject.length < 2) return;
+  currentIndex = (currentIndex + 1) % currentProject.length;
+  showImage();
 });
 
-$(document).on("click", "#prevImg", function () {
-  if (currentProject.length > 1) {
-    currentIndex = (currentIndex - 1 + currentProject.length) % currentProject.length;
-    showImage();
-  }
+$("#prevImg").on("click", function () {
+  if (currentProject.length < 2) return;
+  currentIndex = (currentIndex - 1 + currentProject.length) % currentProject.length;
+  showImage();
 });
