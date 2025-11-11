@@ -210,67 +210,77 @@
   </div>
   <!-- end features -->
   <hr>
-  <!-- Porfolio -->
-  <div class="portfolio pt-80 pb-50" id="portfolio">
-    <div class="container">
-      <div class="section-header-center">
-        <p>Visit my portfolio and keep your feedback</p>
-        <h1>My Portfolio</h1>
+<!-- ===== START : Portfolio Section ===== -->
+<div class="container py-5" id="portfolio">
+  <div class="section-header-center text-center mb-5">
+    <p>Visit my portfolio and keep your feedback</p>
+    <h1>My Portfolio</h1>
+  </div>
+
+  <!-- Filter Buttons -->
+  <div class="text-center mb-4 portfolio-filters">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter=".website">Website</button>
+    <button class="filter-btn" data-filter=".logo">Logo</button>
+    <button class="filter-btn" data-filter=".graphic">Graphic</button>
+    <button class="filter-btn" data-filter=".seo">SEO</button>
+    <button class="filter-btn" data-filter=".meta">Meta Ads</button>
+  </div>
+
+  <!-- Portfolio Grid -->
+  <div class="row portfolio-container">
+
+    <div class="col-lg-4 col-md-6 mix website">
+      <div class="portfolio-card" data-project="website1">
+        <img src="assets/img/ravindernegi-portfolio-01.jpg" alt="Restaurant Website">
+        <div class="card-overlay">
+          <h5>Restaurant Website</h5>
+          <p>Website Design</p>
+        </div>
       </div>
-      <div class="row">
+    </div>
 
-        <!-- <div class="col-lg-4 wow fadeInUp" data-wow-delay=".1s">
-        <div class="portfolio-box">
-          <a href="https://brooklyncandlestudio.com/" class="portfolio-box-img">
-            <img src="assets/img/portfolio-01.jpg" alt="">
-          </a>
-          <a href="https://brooklyncandlestudio.com/" class="portfolio-box-text-1">DEVELOPMENT</a>
-          <a href="https://brooklyncandlestudio.com/" class="portfolio-box-text-2">WordPress Website</a>
+    <div class="col-lg-4 col-md-6 mix meta">
+      <div class="portfolio-card" data-project="meta1">
+        <img src="assets/img/meta-front-1.jpeg" alt="Meta Ads">
+        <div class="card-overlay">
+          <h5>EV Company</h5>
+          <p>Meta Ads</p>
         </div>
-      </div> -->
+      </div>
+    </div>
 
-        <div class="col-lg-4 wow fadeInUp" data-wow-delay=".2s">
-          <div class="portfolio-box">
-            <a href="https://www.bombaycafepalma.com/" class="portfolio-box-img">
-              <img src="assets/img/ravindernegi-portfolio-01.jpg" alt="">
-            </a>
-            <a href="https://www.bombaycafepalma.com/" class="portfolio-box-text-1">WordPress</a>
-            <a href="https://www.bombaycafepalma.com/" class="portfolio-box-text-2"> Restuarant Website </a>
-          </div>
+    <div class="col-lg-4 col-md-6 mix seo">
+      <div class="portfolio-card" data-project="seo1">
+        <img src="assets/img/seo-sample.jpg" alt="SEO Project">
+        <div class="card-overlay">
+          <h5>SEO Optimization</h5>
+          <p>SEO</p>
         </div>
+      </div>
+    </div>
 
-        <div class="col-lg-4 wow fadeInUp" data-wow-delay=".3s">
-          <div class="portfolio-box">
-            <a href="https://travel.jopoeapp.com/" class="portfolio-box-img">
-              <img src="assets/img/ravindernegi-portfolio-05.jpg" alt="">
-            </a>
-            <a href="https://travel.jopoeapp.com/" class="portfolio-box-text-1">Figma to WordPress</a>
-            <a href="https://travel.jopoeapp.com/" class="portfolio-box-text-2">Travel Blog Website</a>
-          </div>
-        </div>
+  </div>
 
-        <div class="col-lg-4 wow fadeInUp" data-wow-delay=".3s">
-          <div class="portfolio-box">
-            <a href="https://paygenie.jopoeapp.com" class="portfolio-box-img">
-              <img src="assets/img/ravindernegi-portfolio-02.jpg" alt="">
-            </a>
-            <a href="https://paygenie.jopoeapp.com" class="portfolio-box-text-1">Figma to WordPress</a>
-            <a href="https://paygenie.jopoeapp.com" class="portfolio-box-text-2">online Payment Website</a>
-          </div>
-        </div>
-        <div class="col-lg-4 wow fadeInUp" data-wow-delay=".5s">
-          <div class="portfolio-box">
-            <a href="https://earthcloths.jopoeapp.com/" class="portfolio-box-img">
-              <img src="assets/img/ravindernegi-portfolio-04.jpg" alt="">
-            </a>
-            <a href="https://earthcloths.jopoeapp.com/" class="portfolio-box-text-1">Shopify Website</a>
-            <a href="https://earthcloths.jopoeapp.com/" class="portfolio-box-text-2">Clothing Website</a>
-          </div>
-        </div>
+  <!-- Project Detail Section -->
+  <div class="portfolio-detail" id="portfolioDetail" aria-hidden="true">
+    <div class="detail-left">
+      <button id="closeDetail" class="detail-close">×</button>
+      <h3 id="detailTitle"></h3>
+      <p id="detailCategory"></p>
+      <p id="detailDesc"></p>
+    </div>
 
+    <div class="detail-right">
+      <div class="carousel">
+        <button class="arrow prev" id="prevImg">&#10094;</button>
+        <div class="carousel-inner" id="galleryImages"></div>
+        <button class="arrow next" id="nextImg">&#10095;</button>
       </div>
     </div>
   </div>
+</div>
+<!-- ===== END : Portfolio Section ===== -->
 
   <hr>
   <!-- Ravinder Negi RESUME -->
@@ -280,7 +290,6 @@
         <p>Experience</p>
         <h1>My Resume</h1>
       </div>
-
       <div class="resume-buttons">
         <div class="row">
           <div class="col-lg-3">
@@ -864,7 +873,7 @@
             <div class="social-icons">
               <p>find with me</p>
               <a href="https://www.facebook.com/ravinegiofficial/"><i class="icofont-facebook"></i></a>
-              <a href="https://www.instagram.com/ravinegiofficial/" class="banner-instagram"><i
+              <a href="https://www.instagram.com/ravinegirajput/" class="banner-instagram"><i
                   class="icofont-instagram"></i></a>
               <a href="https://www.linkedin.com/in/ravindernegiofficial/"><i class="icofont-linkedin"></i></a>
             </div>
@@ -907,13 +916,14 @@
 </div>
 <hr>
 <!-- end contact -->
-<div class="footer pt-80 pb-50">
-    <a href="index.html">
-        <img src="assets/img/logo-vertical.png" alt="">
-    </a>
-    <p>© 2024. All rights reserved by Ravinder Negi.</p>
-</div>
-
+<!-- ===== START : Footer ===== -->
+<footer class="site-footer text-center">
+  <div class="footer-content">
+    <img src="assets/img/logo.png" alt="Ravinder Negi Logo" class="footer-logo">
+    <p>© 2025 <strong>Ravinder Negi</strong> — All Rights Reserved.</p>
+  </div>
+</footer>
+<!-- ===== END : Footer ===== -->
 <!-- go top button -->
 <div class="go-top">
     <button id="go-top-btn"><i class="icofont-swoosh-up"></i></button>
