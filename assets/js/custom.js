@@ -162,11 +162,11 @@ var projectData = {
 <strong>Website:</strong> bombaycafepalma.com<br>
 <strong>Client:</strong> Bombay Cafe Palma (Spanish–Indian Restaurant)<br>
 <strong>Year:</strong> 2025<br>
-<strong>Role:</strong> Full-Stack Web Developer & Designer<br><br>
-<strong>Desc:</strong> Responsive restaurant website with menu, booking, and gallery.<br><br>
-<strong>Overview:</strong> Developed the official website for Bombay Cafe Palma, a Spanish–Indian restaurant in Mallorca. Built on WordPress with custom HTML, CSS & Bootstrap, ensuring a fast, responsive, and SEO-friendly design.<br><br>
-<strong>Key Work:</strong> Brand design, multi-language setup, custom theme, and pages for Menu, Gallery, Reservations & Contact.<br><br>
-<strong>Result:</strong> Modern, high-performing site that boosts online visibility and user engagement.<br><br>
+<strong>Role:</strong> Full-Stack Web Developer & Designer<br>
+<strong>Desc:</strong> Responsive restaurant website with menu, booking, and gallery.<br>
+<strong>Overview:</strong> Developed the official website for Bombay Cafe Palma, a Spanish–Indian restaurant in Mallorca. Built on WordPress with custom HTML, CSS & Bootstrap, ensuring a fast, responsive, and SEO-friendly design.<br>
+<strong>Key Work:</strong> Brand design, multi-language setup, custom theme, and pages for Menu, Gallery, Reservations & Contact.<br>
+<strong>Result:</strong> Modern, high-performing site that boosts online visibility and user engagement.<br>
 👉 <strong>Visit:</strong> <a href="https://www.bombaycafepalma.com/" target="_blank">bombaycafepalma.com</a>
 `,
     images: [
@@ -176,14 +176,12 @@ var projectData = {
     ]
   },
   meta1: {
-    title: "Meta Ads Campaign",
-    category: "Meta Ads",
+    title:"Meta Ads Campaign", 
+    category:"Meta Ads", 
    desc: `
-<strong>Client:</strong> 
-Sunanda Greentech (Electric Vehicle Company)<br>
+<strong>Client:</strong> Sunanda Greentech (Electric Vehicle Company)<br>
 <strong>Year:</strong> 2025<br>
-<strong>Role:</strong> Meta Ads Expert & Marketing Strategist<br><br>
-
+<strong>Role:</strong> Meta Ads Expert & Marketing Strategist<br>
 <strong>Description:</strong> Performance-driven ad campaigns for Electric Scooters & Rickshaws.<br>
 <strong>Overview:</strong> Managed Meta Ads for Sunanda Greentech, an EV company specializing in electric scooters and rickshaws. Executed full-funnel ad strategies with a daily ad spend of ₹6K–₹7K, targeting leads across Mohali, Zirakpur, and Chandigarh.<br>
 <strong>Key Work:</strong> Campaign setup, creative design, audience targeting, lead optimization, and ad performance tracking.<br>
@@ -191,7 +189,7 @@ Sunanda Greentech (Electric Vehicle Company)<br>
 `,
 
     images: [
-    "assets/img/meta-front-1.jpeg",
+        "assets/img/meta-front-1.jpeg",
       "assets/img/meta-ev-1.jpeg",
       "assets/img/meta-ev-2.jpeg"
     ]
