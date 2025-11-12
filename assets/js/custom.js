@@ -171,10 +171,7 @@ var projectData = {
 `,
     images: [
       "./assets/img/ravindernegi-portfolio-01.jpg",
-      "./assets/img/resturant-website.jpg",
-      "./assets/img/resturant-website-2.jpg",
-      "./assests/img/resturant-website-3.jpg",
-        "./assests/img/resturant-website-4.jpg"
+   
     ]
   },
   meta1: {
