@@ -171,9 +171,40 @@ var projectData = {
 `,
     images: [
       "./assets/img/ravindernegi-portfolio-01.jpg",
-   
+      "./assets/img/resturant-website.jpg",
+      "./assets/img/resturant-website-2.jpg",
+      "./assets/img/resturant-website-3.jpg",
+      "./assets/img/resturant-website-4.jpg"
     ]
   },
+// EV VEHICLE 
+ev1: {
+  title: "Electric Vehicle Company Website",
+  category: "Website Design & SEO",
+  desc: `
+<strong>Website:</strong> sunandagreentech.com<br>
+<strong>Client:</strong> Sunanda Greentech (Electric Vehicle Manufacturer)<br>
+<strong>Year:</strong> 2025<br>
+<strong>Role:</strong> Full-Stack Web Developer & SEO Specialist<br>
+<strong>Desc:</strong> Designed and developed a static coded website for Sunanda Greentech — a leading manufacturer of Electric Rickshaws and Scooters.<br>
+<strong>Overview:</strong> Created a multi-page responsive website built with HTML, CSS, PHP & MySQL. Redesigned the layout for better UX, integrated header/footer sections, contact form, and a dedicated dealership page with database connectivity.<br>
+<strong>Key Work:</strong> Complete static design, PHP re-design, product pages, happy customers section, SEO optimization, and performance improvements.<br>
+
+<strong>Result:</strong> A professional, user-friendly, and fast-loading website that reflects the brand’s innovation in the EV industry.<br>
+
+<strong>Visit:</strong> <a href="https://www.sunandagreentech.in/" target="_blank">sunandagreentech.com</a>
+`,
+  images: [
+    "./assets/img/ev-1.jpg",
+    "./assets/img/ev-2.jpg",
+    "./assets/img/ev-3.jpg",
+    "./assets/img/ev-4.jpg",
+    "./assets/img/ev-5.jpg",
+    "./assets/img/ev-6.jpg"
+  ]
+
+},
+
   meta1: {
     title:"Meta Ads Campaign", 
     category:"Meta Ads", 
@@ -193,6 +224,28 @@ var projectData = {
       "assets/img/meta-ev-2.jpeg"
     ]
   },
+meta2: {
+    title: "Meta Ads Campaign – Real Deal Realtors",
+    category: "Meta Ads",
+    desc: `
+<strong>Client:</strong> Real Deal Realtors (Real Estate Agency)<br>
+<strong>Year:</strong> 2025<br>
+<strong>Role:</strong> Meta Ads Expert & Campaign Strategist<br>
+<strong>Description:</strong> High-performing Meta Ad campaigns for residential & commercial real estate projects.<br>
+<strong>Overview:</strong> Managed full-funnel Meta Ad campaigns for Real Deal Realtors to generate high-quality buyer and investor leads across Mohali, Zirakpur, and Chandigarh. Focused on residential plots, villas, apartments, and SCO properties with ad budgets ranging from ₹5K–₹8K daily.<br>
+<strong>Key Work:</strong> Audience targeting, ad creative strategy, A/B testing, lead optimization, and performance tracking.<br>
+<strong>Result:</strong> 📈 1000+ qualified leads generated, reduced CPL to ₹80–₹100, and boosted client sales conversions through consistent, data-driven ad management. 🚀
+`,
+
+    images: [
+        "assets/img/realeastate-1.jpeg",
+      "assets/img/realeastate-2.jpeg"
+   
+    ]
+  },
+
+
+
   seo1: {
     title: "SEO Optimization",
     category: "SEO",
