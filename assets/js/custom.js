@@ -205,6 +205,7 @@ ev1: {
 
 },
 
+
   meta1: {
     title:"Meta Ads Campaign", 
     category:"Meta Ads", 
@@ -242,18 +243,17 @@ meta2: {
       "assets/img/realeastate-2.jpeg"
    
     ]
-  },
-
-
-
-  seo1: {
-    title: "SEO Optimization",
-    category: "SEO",
-    desc: "Technical and on-page SEO for improved search rankings.",
-    images: [
-      "assets/img/seo-sample.jpg"
-    ]
   }
+
+
+  // seo1: {
+  //   title: "SEO Optimization",
+  //   category: "SEO",
+  //   desc: "Technical and on-page SEO for improved search rankings.",
+  //   images: [
+  //     "assets/img/seo-sample.jpg"
+  //   ]
+  // }
 };
 
 let currentProject = [];

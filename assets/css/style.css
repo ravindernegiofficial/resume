@@ -1400,3 +1400,107 @@ hr{
 @media (max-width: 576px) {
   .portfolio-card img { height: 220px; }
 }
+/* =========================
+   Portfolio grid spacing & cards
+   ========================= */
+/* ===== Portfolio Grid Fix ===== */
+.portfolio-container {
+  row-gap: 40px;
+}
+.portfolio-card img {
+  width: 100%;
+  height: 260px;
+  object-fit: contain;
+  background: #111;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+/* ===== Portfolio Popup Modal ===== */
+.portfolio-detail-modal {
+  position: fixed;
+  inset: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0,0.8);
+  z-index: 1000;
+}
+.portfolio-detail-modal .detail-content {
+  background: #fff;
+  border-radius: 16px;
+  padding: 30px;
+  max-width: 1000px;
+  width: 90%;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.3);
+  animation: fadeIn .3s ease;
+}
+.portfolio-detail-modal .close-btn {
+  background: transparent;
+  border: none;
+  font-size: 28px;
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  cursor: pointer;
+  color: #222;
+}
+
+/* reverse layout: text left, carousel right */
+.portfolio-detail-modal .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.detail-text {
+  padding-right: 25px;
+}
+.carousel-wrapper {
+  position: relative;
+  text-align: center;
+}
+.carousel-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.carousel-image {
+  max-width: 100%;
+  max-height: 380px;
+  border-radius: 12px;
+  object-fit: contain;
+}
+.carousel-control {
+  background: #ff014f;
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.carousel-control.prev {
+  left: 10px;
+}
+.carousel-control.next {
+  right: 10px;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0; transform: scale(0.95);}
+  to {opacity: 1; transform: scale(1);}
+}
+
+@media (max-width: 768px) {
+  .portfolio-detail-modal .detail-content {
+    flex-direction: column;
+  }
+  .detail-text {
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+  .carousel-image {
+    max-height: 260px;
+  }
+}
