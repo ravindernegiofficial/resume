@@ -89,7 +89,7 @@ const projectData = [
       <strong>Result:</strong> Improved site speed, SEO, and customer conversions.<br>
       👉 <strong>Visit:</strong> <a href="https://www.bombaycafepalma.com/" target="_blank">bombaycafepalma.com</a>
     `,
-    images: ["assets/img/ravindernegi-portfolio-01.jpg", "assets/img/resturant-website.jpg"]
+    images: ["assets/img/ravindernegi-portfolio-01.jpg", "assets/img/resturant-website-2.jpg", "assets/img/resturant-website-3.jpg", "assets/img/resturant-website-4.jpg",]
   },
   {
     id: "ev1",
@@ -109,70 +109,148 @@ const projectData = [
     images: ["assets/img/ev-1.jpg", "assets/img/ev-2.jpg"]
   },
 
-  {
-    id: "akhilcloth",
-    title: "Electric Vehicle Website",
-    category: "Website",
-    desc: `
-      <strong>Client:</strong> Akhil Fashion Hub <br>
-<strong>Year:</strong> 2025<br>
-<strong>Role:</strong> Shopify Web Developer & Ads Manager<br>
-<strong>Desc:</strong> Designed and developed a dropshipping-based clothing website for Akhil Fashion Hub using Shopify.<br>
-<strong>Overview:</strong> Built a fully responsive Shopify store with custom-coded features, app integrations, and secure payment gateway setup. Managed product ads to drive sales and traffic.<br>
-<strong>Key Work:</strong> Theme customization, product catalog setup, dropshipping integration, payment configuration, and Meta Ads campaign management.<br>
-<strong>Result:</strong> Successfully launched a modern fashion eCommerce store within a ₹15K project budget, enhancing sales and brand visibility.<br>
+{
+  id: "akhilcloth",
+  title: "Akhil Fashion Hub – Shopify Clothing Store",
+  category: "Website",
+  desc: `
+    <strong>Client:</strong> Akhil Fashion Hub <br>
+    <strong>Year:</strong> 2025<br>
+    <strong>Role:</strong> Shopify Web Developer & Ads Manager<br>
 
-    `,
-    images: ["assets/img/fashion-hub-1.jpg","assets/img/fashion-hub-2.jpg","assets/img/fashion-hub-3.jpg","assets/img/fashion-hub-4.jpg","assets/img/fashion-hub-5.jpg","assets/img/fashion-hub-6.jpg",]
-  },
-  {
-    id: "meta1",
-    title: "Meta Ads – EV Company",
-    category: "Meta Ads",
-    desc: `
-      <strong>Client:</strong> Sunanda Greentech<br>
-      <strong>Year:</strong> 2025<br>
-      <strong>Role:</strong> Meta Ads Expert<br>
-      <strong>Desc:</strong> Managed ad campaigns for electric vehicles.<br>
-      <strong>Overview:</strong> Created audience-targeted ad sets for EV buyers.<br>
-      <strong>Key Work:</strong> Creative design, targeting, and optimization.<br>
-      <strong>Result:</strong> ROI increased by 200% with reduced CPL.<br>
-    `,
-    images: ["assets/img/meta-front-1.jpeg", "assets/img/meta-ev-1.jpeg"]
-  },
-  {
-    id: "meta2",
+    <strong>Desc:</strong> Designed and developed a modern dropshipping-based clothing eCommerce store for Akhil Fashion Hub using Shopify. Focused on creating a high-conversion layout with a smooth shopping experience.<br>
 
-    title: "Meta Ads – Real Estate",
-    category: "Meta Ads",
-    desc: `
-      <strong>Client:</strong> Real Deal Realtors<br>
-      <strong>Year:</strong> 2025<br>
-      <strong>Role:</strong> Campaign Strategist<br>
-      <strong>Desc:</strong> Ads for luxury residential properties.<br>
-      <strong>Overview:</strong> Ran multiple ad sets for different projects.<br>
-      <strong>Key Work:</strong> Ad copywriting, visuals & A/B testing.<br>
-      <strong>Result:</strong> 1000+ quality leads generated.<br>
-    `,
-    images: ["assets/img/realeastate-1.jpeg", "assets/img/realeastate-2.jpeg"]
-  },
+    <strong>Overview:</strong> Built a fully responsive Shopify store with custom theme adjustments, advanced product layout sections, essential app integrations, and a secure payment gateway setup. Managed product advertising to boost traffic and sales across social platforms.<br>
 
- {
-    id: "meta3",
-    title: "Meta Ads – Real Estate",
-    category: "Meta Ads",
-    desc: `
-   <strong>Client:</strong> USA Education <br>
-<strong>Year:</strong> 2025<br>
-<strong>Role:</strong> Campaign Strategist<br>
-<strong>Desc:</strong> Planned and executed Meta Ads campaigns for Smart USA Education, focusing on student enrollment across the United States.<br>
-<strong>Overview:</strong> Designed and optimized multiple ad sets for different education programs and audience demographics using Meta Business Suite.<br>
-<strong>Key Work:</strong> Ad copywriting, visual concept creation, audience segmentation, campaign optimization, and A/B testing for performance improvement.<br>
-<strong>Result:</strong> Generated 1,200+ qualified leads, increased CTR by 40%, and significantly enhanced brand visibility among prospective students.<br>
+    <strong>Key Work:</strong> Custom theme styling, product catalog creation, dropshipping system integration, checkout & payment configuration, store optimization, and Meta Ads campaign management for targeted sales growth.<br>
 
+    <strong>Result:</strong> Successfully launched a professional, mobile-optimized fashion store within a ₹15K budget, improving sales potential and strengthening the brand’s online presence.<br>
+      <strong>Website:</strong>https://akhilfashionhub.com/
     `,
-    images: ["assets/img/meta3-1.jpeg", "assets/img/meta3-2.jpeg",]
-  },
+  images: [
+    "assets/img/fashion-hub-1.jpg",
+    "assets/img/fashion-hub-2.jpg",
+    "assets/img/fashion-hub-3.jpg",
+    "assets/img/fashion-hub-4.jpg",
+    "assets/img/fashion-hub-5.jpg",
+    "assets/img/fashion-hub-6.jpg"
+  ]
+},
+
+{
+ id: "usawebstories",
+  title: "USA WebStories Blog Website",
+  category: "Website",
+  desc: `
+    <strong>Client:</strong> USA WebStories <br>
+    <strong>Year:</strong> 2025<br>
+    <strong>Role:</strong> Web Developer & Content Strategist<br>
+    <strong>Desc:</strong> Developed a blog website for USA WebStories focusing on visual storytelling format (Web Stories).<br>
+    <strong>Overview:</strong> Created a mobile-first, full-screen story experience using the open web “Web Stories” format, optimized for SEO and Google Discover. Integrated story layouts, fast-loading AMP pages, and custom theme for blog content.<br>
+    <strong>Key Work:</strong> Theme development, AMP story implementation, structured data for Web Stories, responsive design, content layout for blog posts and stories.<br>
+    <strong>Result:</strong> Launched a modern blog platform leveraging Web Stories format, improving mobile engagement and search visibility within budget and timeline.<br>
+    <strong>Website:</strong>https://usawebstory.com/
+  `,
+  images: [
+    "assets/img/webstories-1.jpg",
+    "assets/img/webstories-2.jpg",
+    "assets/img/webstories-3.jpg",
+    "assets/img/webstories-4.jpg",
+    "assets/img/webstories-5.jpg",
+    "assets/img/webstories-6.jpg"
+  ]
+},
+{
+  id: "propertypebaat",
+  title: "Property Pe Baat Real-Estate Platform",
+  category: "Website",
+  desc: `
+    <strong>Client:</strong> Property Pe Baat <br>
+    <strong>Year:</strong> 2025<br>
+    <strong>Role:</strong> Web Developer & Real-Estate Content Strategist<br>
+    <strong>Desc:</strong> Designed and developed a professional property listing and advisory website for Property Pe Baat, focusing on land, plots and homes around the Mohali / New Chandigarh region.<br>
+    <strong>Overview:</strong> Built a responsive website that showcases real-estate listings (plots, houses, rentals) with high-quality imagery, structured listing pages, contact forms, and easy navigation. Integrated SEO-friendly layouts tailored for property search and lead generation.<br>
+    <strong>Key Work:</strong> Custom theme design, listing database integration, filter/search functionality, contact/lead capture forms, mobile-first performance optimisation, and on-page SEO for real-estate keywords.<br>
+    <strong>Result:</strong> Launched a robust property platform with strong mobile engagement, improved enquiry flow and enhanced regional visibility in the competitive Mohali/New Chandigarh real-estate market.<br>
+    <strong>Website:</strong> <a href="https://propertypebaat.in/" target="_blank">https://propertypebaat.in/</a><br>
+  `,
+  images: [
+    "assets/img/real-1.jpg",
+    "assets/img/real-2.jpg",
+    "assets/img/real-3.jpg",
+    "assets/img/real-4.jpg",
+    "assets/img/real-5.jpg"
+  ]
+},
+{
+  id: "meta1",
+  title: "Meta Ads – Electric Vehicle Lead Generation",
+  category: "Meta Ads",
+  desc: `
+    <strong>Client:</strong> Sunanda Greentech<br>
+    <strong>Year:</strong> 2025<br>
+    <strong>Role:</strong> Meta Ads Specialist<br>
+
+    <strong>Desc:</strong> Planned and executed high-performing Meta Ads campaigns for Sunanda Greentech to generate qualified leads for electric scooters and e-bikes.<br>
+
+    <strong>Overview:</strong> Developed laser-targeted ad sets based on buyer intent, demographics, EV interests, and location segmentation. Designed conversion-focused creatives to showcase features, pricing, and test-ride benefits.<br>
+
+    <strong>Key Work:</strong> Audience research, creative design, campaign setup, A/B testing, budget optimization, retargeting, and continuous performance monitoring to lower CPL and maximize lead quality.<br>
+
+    <strong>Result:</strong> Achieved a significant boost in campaign performance with over 200% ROI, improved lead quality, and a noticeably reduced cost-per-lead (CPL).<br>
+  `,
+  images: [
+    "assets/img/meta-front-1.jpeg",
+    "assets/img/meta-ev-1.jpeg"
+  ]
+},
+{
+  id: "meta2",
+  title: "Meta Ads – Real Estate Lead Generation",
+  category: "Meta Ads",
+  desc: `
+    <strong>Client:</strong> Real Deal Realtors<br>
+    <strong>Year:</strong> 2025<br>
+    <strong>Role:</strong> Meta Ads Campaign Strategist<br>
+
+    <strong>Desc:</strong> Planned and executed Meta Ads campaigns for premium and luxury residential real-estate projects aimed at generating high-quality buyer enquiries.<br>
+
+    <strong>Overview:</strong> Managed multiple campaigns across different property segments, including luxury apartments, plots and investment-focused projects. Developed audience-specific targeting strategies optimized for location, income range and buyer behaviour.<br>
+
+    <strong>Key Work:</strong> High-impact ad copywriting, creative visual design, A/B testing of creatives and audiences, lead form optimization, retargeting strategy, and continuous performance scaling.<br>
+
+    <strong>Result:</strong> Generated 1,000+ verified, high-intent leads with strong conversion potential, significantly improving project visibility and reducing overall cost-per-lead.<br>
+  `,
+  images: [
+    "assets/img/realeastate-1.jpeg",
+    "assets/img/realeastate-2.jpeg"
+  ]
+},
+
+
+{
+  id: "meta3",
+  title: "Meta Ads – USA Education Lead Campaigns",
+  category: "Meta Ads",
+  desc: `
+    <strong>Client:</strong> USA Education<br>
+    <strong>Year:</strong> 2025<br>
+    <strong>Role:</strong> Meta Ads Campaign Strategist<br>
+
+    <strong>Desc:</strong> Planned and executed high-performing Meta Ads campaigns for Smart USA Education to boost student enrollment for multiple academic programs across the United States.<br>
+
+    <strong>Overview:</strong> Designed, tested, and optimized multiple ad sets tailored to various education programs, target age groups, and regional audience segments. Leveraged Meta Business Suite for precise targeting and data-driven campaign optimization.<br>
+
+    <strong>Key Work:</strong> Strategic ad copywriting, creative visual development, audience segmentation, budget allocation, lead form optimization, and continuous A/B testing to improve performance and reduce costs.<br>
+
+    <strong>Result:</strong> Generated 1,200+ qualified student leads, improved CTR by 40%, and significantly strengthened brand visibility among U.S.–based prospective students.<br>
+  `,
+  images: [
+    "assets/img/meta3-1.jpeg",
+    "assets/img/meta3-2.jpeg"
+  ]
+},
+
 
 
 //   {
@@ -193,10 +271,10 @@ const projectData = [
   {
     id: "logo1",
     title: "Corporate Logo Design",
-    category: "Logo",
+    category: "graphic",
     desc: `
      <strong>Project:</strong> Logo & Brand Identity Design<br>
-<strong>Client:</strong> Multiple Businesses & Startups (StyleHub, Aior Italy, Nyra, Clat Success, Shree Homes, Easy Learn, ProperTypeBaat, Tara E-Rickshaw, Samdox & more)<br>
+<strong>Client:</strong> Multiple Businesses & Startups (StyleHub, Aior Italy, Nyra, Clat Success, Shree Homes, Easy Learn, PropertypeBaat, Tara E-Rickshaw, Samdox & more)<br>
 <strong>Year:</strong> 2024–2025<br>
 <strong>Role:</strong> Graphic Designer & Brand Identity Specialist<br>
 <strong>Desc:</strong> Created cohesive brand identities and logo systems for diverse clients across fashion, education, real estate, tech, and automotive industries.<br>
@@ -205,7 +283,7 @@ const projectData = [
 <strong>Result:</strong> Enhanced brand consistency, recognition, and trust across platforms. Many clients reported increased visibility and customer engagement post-launch.<br>
 👉 <strong>Portfolio:</strong> Available upon request / showcased in design portfolio.<br>
     `,
-    images: ["assets/img/logo.jpeg", "assets/img/logo2.jpeg", "assets/img/logo3.jpeg"]
+    images: ["assets/img/logo.jpeg", "assets/img/logo2.jpeg", "assets/img/logo3.jpeg","assets/img/new-logo-1.jpg","assets/img/new-logo-2.jpg","assets/img/new-logo-3.jpg","assets/img/new-logo-4.jpg","assets/img/new-logo-5.jpg",]
   },
   // {
   //   id: "graphic1",
