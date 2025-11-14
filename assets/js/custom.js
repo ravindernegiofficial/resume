@@ -89,7 +89,7 @@ const projectData = [
       <strong>Result:</strong> Improved site speed, SEO, and customer conversions.<br>
       👉 <strong>Visit:</strong> <a href="https://www.bombaycafepalma.com/" target="_blank">bombaycafepalma.com</a>
     `,
-    images: ["assets/img/ravindernegi-portfolio-01.jpg", "assets/img/resturant-website-2.jpg", "assets/img/resturant-website-3.jpg", "assets/img/resturant-website-4.jpg",]
+    images: ["assets/img/ravindernegi-portfolio-01.jpg", "assets/img/resturant-website-2.jpg", "assets/img/resturant-website-3.jpg", "assets/img/resturant-website-4.jpg"]
   },
   {
     id: "ev1",
@@ -108,12 +108,11 @@ const projectData = [
     `,
     images: ["assets/img/ev-1.jpg", "assets/img/ev-2.jpg"]
   },
-
-{
-  id: "akhilcloth",
-  title: "Akhil Fashion Hub – Shopify Clothing Store",
-  category: "Website",
-  desc: `
+  {
+    id: "akhilcloth",
+    title: "Akhil Fashion Hub – Shopify Clothing Store",
+    category: "Website",
+    desc: `
     <strong>Client:</strong> Akhil Fashion Hub <br>
     <strong>Year:</strong> 2025<br>
     <strong>Role:</strong> Shopify Web Developer & Ads Manager<br>
@@ -127,21 +126,20 @@ const projectData = [
     <strong>Result:</strong> Successfully launched a professional, mobile-optimized fashion store within a ₹15K budget, improving sales potential and strengthening the brand’s online presence.<br>
       <strong>Website:</strong>https://akhilfashionhub.com/
     `,
-  images: [
-    "assets/img/fashion-hub-1.jpg",
-    "assets/img/fashion-hub-2.jpg",
-    "assets/img/fashion-hub-3.jpg",
-    "assets/img/fashion-hub-4.jpg",
-    "assets/img/fashion-hub-5.jpg",
-    "assets/img/fashion-hub-6.jpg"
-  ]
-},
-
-{
- id: "usawebstories",
-  title: "USA WebStories Blog Website",
-  category: "Website",
-  desc: `
+    images: [
+      "assets/img/fashion-hub-1.jpg",
+      "assets/img/fashion-hub-2.jpg",
+      "assets/img/fashion-hub-3.jpg",
+      "assets/img/fashion-hub-4.jpg",
+      "assets/img/fashion-hub-5.jpg",
+      "assets/img/fashion-hub-6.jpg"
+    ]
+  },
+  {
+    id: "usawebstories",
+    title: "USA WebStories Blog Website",
+    category: "Website",
+    desc: `
     <strong>Client:</strong> USA WebStories <br>
     <strong>Year:</strong> 2025<br>
     <strong>Role:</strong> Web Developer & Content Strategist<br>
@@ -151,20 +149,20 @@ const projectData = [
     <strong>Result:</strong> Launched a modern blog platform leveraging Web Stories format, improving mobile engagement and search visibility within budget and timeline.<br>
     <strong>Website:</strong>https://usawebstory.com/
   `,
-  images: [
-    "assets/img/webstories-1.jpg",
-    "assets/img/webstories-2.jpg",
-    "assets/img/webstories-3.jpg",
-    "assets/img/webstories-4.jpg",
-    "assets/img/webstories-5.jpg",
-    "assets/img/webstories-6.jpg"
-  ]
-},
-{
-  id: "propertypebaat",
-  title: "Property Pe Baat Real-Estate Platform",
-  category: "Website",
-  desc: `
+    images: [
+      "assets/img/webstories-1.jpg",
+      "assets/img/webstories-2.jpg",
+      "assets/img/webstories-3.jpg",
+      "assets/img/webstories-4.jpg",
+      "assets/img/webstories-5.jpg",
+      "assets/img/webstories-6.jpg"
+    ]
+  },
+  {
+    id: "propertypebaat",
+    title: "Property Pe Baat Real-Estate Platform",
+    category: "Website",
+    desc: `
     <strong>Client:</strong> Property Pe Baat <br>
     <strong>Year:</strong> 2025<br>
     <strong>Role:</strong> Web Developer & Real-Estate Content Strategist<br>
@@ -174,19 +172,19 @@ const projectData = [
     <strong>Result:</strong> Launched a robust property platform with strong mobile engagement, improved enquiry flow and enhanced regional visibility in the competitive Mohali/New Chandigarh real-estate market.<br>
     <strong>Website:</strong> <a href="https://propertypebaat.in/" target="_blank">https://propertypebaat.in/</a><br>
   `,
-  images: [
-    "assets/img/real-1.jpg",
-    "assets/img/real-2.jpg",
-    "assets/img/real-3.jpg",
-    "assets/img/real-4.jpg",
-    "assets/img/real-5.jpg"
-  ]
-},
-{
-  id: "meta1",
-  title: "Meta Ads – Electric Vehicle Lead Generation",
-  category: "Meta Ads",
-  desc: `
+    images: [
+      "assets/img/real-1.jpg",
+      "assets/img/real-2.jpg",
+      "assets/img/real-3.jpg",
+      "assets/img/real-4.jpg",
+      "assets/img/real-5.jpg"
+    ]
+  },
+  {
+    id: "meta1",
+    title: "Meta Ads – Electric Vehicle Lead Generation",
+    category: "Meta Ads",
+    desc: `
     <strong>Client:</strong> Sunanda Greentech<br>
     <strong>Year:</strong> 2025<br>
     <strong>Role:</strong> Meta Ads Specialist<br>
@@ -199,16 +197,13 @@ const projectData = [
 
     <strong>Result:</strong> Achieved a significant boost in campaign performance with over 200% ROI, improved lead quality, and a noticeably reduced cost-per-lead (CPL).<br>
   `,
-  images: [
-    "assets/img/meta-front-1.jpeg",
-    "assets/img/meta-ev-1.jpeg"
-  ]
-},
-{
-  id: "meta2",
-  title: "Meta Ads – Real Estate Lead Generation",
-  category: "Meta Ads",
-  desc: `
+    images: ["assets/img/meta-front-1.jpeg", "assets/img/meta-ev-1.jpeg"]
+  },
+  {
+    id: "meta2",
+    title: "Meta Ads – Real Estate Lead Generation",
+    category: "Meta Ads",
+    desc: `
     <strong>Client:</strong> Real Deal Realtors<br>
     <strong>Year:</strong> 2025<br>
     <strong>Role:</strong> Meta Ads Campaign Strategist<br>
@@ -221,18 +216,13 @@ const projectData = [
 
     <strong>Result:</strong> Generated 1,000+ verified, high-intent leads with strong conversion potential, significantly improving project visibility and reducing overall cost-per-lead.<br>
   `,
-  images: [
-    "assets/img/realeastate-1.jpeg",
-    "assets/img/realeastate-2.jpeg"
-  ]
-},
-
-
-{
-  id: "meta3",
-  title: "Meta Ads – USA Education Lead Campaigns",
-  category: "Meta Ads",
-  desc: `
+    images: ["assets/img/realeastate-1.jpeg", "assets/img/realeastate-2.jpeg"]
+  },
+  {
+    id: "meta3",
+    title: "Meta Ads – USA Education Lead Campaigns",
+    category: "Meta Ads",
+    desc: `
     <strong>Client:</strong> USA Education<br>
     <strong>Year:</strong> 2025<br>
     <strong>Role:</strong> Meta Ads Campaign Strategist<br>
@@ -245,33 +235,12 @@ const projectData = [
 
     <strong>Result:</strong> Generated 1,200+ qualified student leads, improved CTR by 40%, and significantly strengthened brand visibility among U.S.–based prospective students.<br>
   `,
-  images: [
-    "assets/img/meta3-1.jpeg",
-    "assets/img/meta3-2.jpeg"
-  ]
-},
-
-
-
-//   {
-//     id: "seo1",
-//     title: "SEO Optimization",
-//     category: "SEO",
-//     desc: `
-//      <strong>Client:</strong> USA Education <br>
-// <strong>Year:</strong> 2025<br>
-// <strong>Role:</strong> Campaign Strategist<br>
-// <strong>Desc:</strong> Created and managed Meta Ads campaigns for Smart USA Education, targeting students across the United States.<br>
-// <strong>Overview:</strong> Executed multiple ad sets focusing on various education programs, audience segments, and conversion objectives.<br>
-// <strong>Key Work:</strong> Strategic ad copywriting, engaging visuals, audience targeting, budget optimization, and A/B testing for maximum ROI.<br>
-// <strong>Result:</strong> Generated 1000+ high-quality leads and improved CTR by 35%, significantly boosting enrollment inquiries.<br>
-//     `,
-//     images: ["assets/img/seo-sample.jpg"]
-//   },
+    images: ["assets/img/meta3-1.jpeg", "assets/img/meta3-2.jpeg"]
+  },
   {
     id: "logo1",
     title: "Corporate Logo Design",
-    category: "graphic",
+    category: "Graphic",
     desc: `
      <strong>Project:</strong> Logo & Brand Identity Design<br>
 <strong>Client:</strong> Multiple Businesses & Startups (StyleHub, Aior Italy, Nyra, Clat Success, Shree Homes, Easy Learn, PropertypeBaat, Tara E-Rickshaw, Samdox & more)<br>
@@ -283,22 +252,55 @@ const projectData = [
 <strong>Result:</strong> Enhanced brand consistency, recognition, and trust across platforms. Many clients reported increased visibility and customer engagement post-launch.<br>
 👉 <strong>Portfolio:</strong> Available upon request / showcased in design portfolio.<br>
     `,
-    images: ["assets/img/logo.jpeg", "assets/img/logo2.jpeg", "assets/img/logo3.jpeg","assets/img/new-logo-1.jpg","assets/img/new-logo-2.jpg","assets/img/new-logo-3.jpg","assets/img/new-logo-4.jpg","assets/img/new-logo-5.jpg",]
+    images: ["assets/img/logo.jpeg", "assets/img/logo2.jpeg", "assets/img/logo3.jpeg","assets/img/new-logo-1.jpg","assets/img/new-logo-2.jpg","assets/img/new-logo-3.jpg","assets/img/new-logo-4.jpg","assets/img/new-logo-5.jpg"]
   },
-  // {
-  //   id: "graphic1",
-  //   title: "Poster Design Campaign",
-  //   category: "Graphic",
-  //   desc: `
-  //     <strong>Client:</strong> Event Company<br>
-  //     <strong>Role:</strong> Graphic Designer<br>
-  //     <strong>Desc:</strong> Designed event posters & creatives.<br>
-  //     <strong>Overview:</strong> Used Adobe Illustrator & Photoshop for vector-based design.<br>
-  //     <strong>Key Work:</strong> Layout, color grading, brand alignment.<br>
-  //     <strong>Result:</strong> Eye-catching visuals with high engagement.<br>
-  //   `,
-  //   images: ["assets/img/graphic1.jpg"]
-  // }
+  {
+    id: "Poster1",
+    title: "Graphic & Poster Designing",
+    category: "Graphic",
+    desc: `
+    <strong>Service:</strong> Premium Graphic & Poster Designing<br>
+    <strong>Year:</strong> 2025<br>
+    <strong>Role:</strong> Creative Designer & Branding Specialist<br>
+
+    <strong>Desc:</strong> Designed high-quality posters, social media creatives, product ads, and promotional graphics for multiple brands across different industries.<br>
+
+    <strong>Overview:</strong> Delivered fully customized posters tailored to brand identity, campaign goals, and platform formats. Expertise in modern design trends, color psychology, typography, and conversion-focused layouts for digital ads.<br>
+
+    <strong>Poster Types I Create:</strong><br>
+    • Digital Marketing Course Posters<br>
+    • Real Estate Project Ads<br>
+    • Gym Membership Offers<br>
+    • Restaurant Menu / Food Ads<br>
+    • Coaching Classes Promotions<br>
+    • Product Launch / Product Promo Graphics<br>
+    • Social Media Ads (Instagram/Facebook)<br>
+    • Festival Sale Posters<br>
+    • Instagram Posts & Reel Covers<br>
+
+    <strong>Design Styles Available:</strong><br>
+    Minimal · Modern · Professional · Gradient · Dark Theme · Light Theme · Bold Colors · Canva Style · 3D Elements<br>
+
+    <strong>Formats Delivered:</strong><br>
+    • Instagram Square (1080×1080)<br>
+    • Story / Vertical Ads (1080×1920)<br>
+    • Facebook/LinkedIn Post Sizes<br>
+    • A4/A3 Print-Ready Posters (High-Resolution PDF)<br>
+
+    <strong>Process:</strong> I collect brand details → create 2–3 design concepts → finalize layout → deliver polished creatives for social media or ads.<br>
+
+    <strong>Result:</strong> Multiple businesses saw improved engagement, higher conversions, and stronger brand presence through visually appealing and high-impact poster designs.<br>
+  `,
+    images: [
+      "assets/img/graphic-1.jpeg",
+      "assets/img/graphic-2.jpeg",
+      "assets/img/graphic-3.jpeg",
+      "assets/img/graphic-4.jpeg",
+      "assets/img/graphic-5.jpeg",
+      "assets/img/graphic-6.jpeg",
+      "assets/img/graphic-7.jpeg"
+    ]
+  }
 ];
 
 // === PAGINATION + SEARCH ===
@@ -328,7 +330,10 @@ function renderProjects(filter = "all", page = 1, search = "") {
   currentPage = page;
   currentSearch = search;
 
-  let filtered = projectData;
+  // SHOW LATEST FIRST: reverse a shallow copy so original array order stays intact
+  let sortedProjects = [...projectData].reverse();
+
+  let filtered = sortedProjects;
   if (filter !== "all") filtered = filtered.filter(p => p.category.toLowerCase() === filter.toLowerCase());
   if (search.trim() !== "") {
     const term = search.toLowerCase();
@@ -347,9 +352,13 @@ function renderProjects(filter = "all", page = 1, search = "") {
   paginated.forEach(proj => {
     const col = document.createElement("div");
     col.className = "col-lg-4 col-md-6 mb-4 mix " + proj.category.toLowerCase();
+
+    // safe image fallback if missing
+    const imgSrc = proj.images && proj.images.length > 0 ? proj.images[0] : "assets/img/default.jpg";
+
     col.innerHTML = `
       <div class="portfolio-card" data-project="${proj.id}">
-        <img src="${proj.images[0]}" alt="${proj.title}">
+        <img src="${imgSrc}" alt="${proj.title}">
         <div class="card-overlay">
           <h5>${proj.title}</h5>
           <p>${proj.category}</p>
