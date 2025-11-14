@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="assets/img/fav.png" type="image/x-icon">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/icofont.min.css">
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/css/owl.theme.default.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="assets/css/animate.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Ravinder Negi - Personal Portfolio</title>
+</head>
+
+<body data-bs-spy="scroll">
+
+  <!-- navbar -->
+  <div class="header">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark ">
+        <div class="container-fluid">
+          <img src="./assets/img/logo.png" alt="Ravinder Negi Logo" class="footer-logo">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link active" aria-current="page" href="#home">HOME</a>
+              <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  <!-- banner -->
+  <div class="banner" id="home">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7">
+          <div class="banner-content">
+            <div class="banner-text">
+              <h3>Welcome to my world</h3>
+              <h1>Hi, I’m <b style="color: #ff014f;">Ravinder Negi</b></h1>
+              <h2>
+                a
+                <span href="" class="typewrite" data-period="2000"
+                  data-type='[ "Web Developer.","WordPress Developer.","E-commerce Expert.","Shopify Developer.","Meta Ads Expert." ]'>
+                  <span class="wrap"></span>
+                </span>
+              </h2>
+
+              <p>Hi! I'm Ravinder Negi, a web designer and digital marketing expert with 10+ years of experience. I build
+                fast, responsive websites using HTML, CSS, Bootstrap, WordPress, and Shopify. I specialize in SEO
+                (on-page & off-page), result-driven Google & Meta (Facebook/Instagram) ad campaigns, and scroll-stopping
+                Canva graphics. I also manage social media, optimize Google Business profiles, edit videos, and automate
+                with Excel & Sheets. Let’s grow your online presence with creative, conversion-focused strategies. Drop
+                a message and let’s make something amazing!</p>
+              <!-- <p>Self-motivated, hardworking, and goal-oriented professional with a high degree of flexibility and
+                creativity. I am seeking a responsible and challenging position as a WordPress Developer or Shopify
+                Developer/Designer. I specialize in customizing websites, converting Figma designs to WordPress, and
+                creating Shopify stores. I am looking for opportunities to further enrich my knowledge, experience, and
+                skills in these areas.</p> -->
+            </div>
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="social-icons">
+                  <p>find with me</p>
+                  <a href="https://www.facebook.com/ravinegiofficial/"><i class="icofont-facebook"></i></a>
+                  <a href="https://www.instagram.com/ravinegiofficial/"><i class="icofont-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/ravindernegiofficial/"><i class="icofont-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="banner-skills">
+                  <p>best skills on</p>
+                  <li><img src="assets/img/icons-01.png" alt=""></li>
+                  <li><img src="assets/img/icons-02.png" alt=""></li>
+                  <li><img src="assets/img/icons-03.png" alt=""></li>
+                  <li><img src="assets/img/icons-04.png" alt=""></li>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="banner-img">
+            <img src="assets/img/banner-01.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- ===== START : Portfolio Section ===== -->
+  <div class="container py-5" id="portfolio">
+    <div class="section-header-center text-center mb-5">
+      <h1>My Portfolio</h1>
+      <p>Browse my latest projects below</p>
+    </div>
+
+    <!-- Filter Buttons -->
+    <div class="text-center mb-4 portfolio-filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="Website">Website</button>
+      <button class="filter-btn" data-filter="Logo">Logo</button>
+      <button class="filter-btn" data-filter="Graphic">Graphic</button>
+      <button class="filter-btn" data-filter="SEO">SEO</button>
+      <button class="filter-btn" data-filter="Meta Ads">Meta Ads</button>
+    </div>
+
+    <!-- Dynamic Portfolio Grid -->
+    <div class="row" id="portfolio-container">
+      <!-- Projects load dynamically here -->
+    </div>
+
+    <!-- Project Detail Popup -->
+    <div class="portfolio-detail" id="portfolioDetail" aria-hidden="true">
+      <div class="detail-left">
+        <button id="closeDetail" class="detail-close">×</button>
+        <h3 id="detailTitle"></h3>
+        <p id="detailCategory"></p>
+        <p id="detailDesc"></p>
+      </div>
+      <div class="detail-right">
+        <div class="carousel">
+          <button class="arrow prev" id="prevImg">&#10094;</button>
+          <div class="carousel-inner" id="galleryImages"></div>
+          <button class="arrow next" id="nextImg">&#10095;</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ===== END : Portfolio Section ===== -->
+
+  <hr>
+
+  <!-- ===== START : Footer ===== -->
+  <footer class="site-footer text-center">
+    <div class="footer-content">
+      <img src="assets/img/Logo.png" alt="Ravinder Negi Logo" class="footer-logo">
+      <p>© 2025 <strong>Ravinder Negi</strong> — All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- go top button -->
+  <div class="go-top">
+    <button id="go-top-btn"><i class="icofont-swoosh-up"></i></button>
+  </div>
+  <!-- Scripts -->
+  <script src="assets/js/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.js"></script>
+  <script src="assets/js/mixitup.min.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
