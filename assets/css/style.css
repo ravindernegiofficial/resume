@@ -150,7 +150,7 @@ hr{
     position: fixed;
     top:0;
     padding:0 30px !important;
-    height: 60px !important;
+    height: 90px !important;
     background-color: rgba(0, 0, 0, 0.5) !important;
     z-index: 1111111111;
     transition:.4s;
