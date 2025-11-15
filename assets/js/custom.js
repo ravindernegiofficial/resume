@@ -188,13 +188,9 @@ const projectData = [
     <strong>Client:</strong> Sunanda Greentech<br>
     <strong>Year:</strong> 2025<br>
     <strong>Role:</strong> Meta Ads Specialist<br>
-
     <strong>Desc:</strong> Planned and executed high-performing Meta Ads campaigns for Sunanda Greentech to generate qualified leads for electric scooters and e-bikes.<br>
-
     <strong>Overview:</strong> Developed laser-targeted ad sets based on buyer intent, demographics, EV interests, and location segmentation. Designed conversion-focused creatives to showcase features, pricing, and test-ride benefits.<br>
-
     <strong>Key Work:</strong> Audience research, creative design, campaign setup, A/B testing, budget optimization, retargeting, and continuous performance monitoring to lower CPL and maximize lead quality.<br>
-
     <strong>Result:</strong> Achieved a significant boost in campaign performance with over 200% ROI, improved lead quality, and a noticeably reduced cost-per-lead (CPL).<br>
   `,
     images: ["assets/img/meta-front-1.jpeg", "assets/img/meta-ev-1.jpeg"]
@@ -209,9 +205,7 @@ const projectData = [
     <strong>Role:</strong> Meta Ads Campaign Strategist<br>
 
     <strong>Desc:</strong> Planned and executed Meta Ads campaigns for premium and luxury residential real-estate projects aimed at generating high-quality buyer enquiries.<br>
-
     <strong>Overview:</strong> Managed multiple campaigns across different property segments, including luxury apartments, plots and investment-focused projects. Developed audience-specific targeting strategies optimized for location, income range and buyer behaviour.<br>
-
     <strong>Key Work:</strong> High-impact ad copywriting, creative visual design, A/B testing of creatives and audiences, lead form optimization, retargeting strategy, and continuous performance scaling.<br>
 
     <strong>Result:</strong> Generated 1,000+ verified, high-intent leads with strong conversion potential, significantly improving project visibility and reducing overall cost-per-lead.<br>
@@ -226,13 +220,9 @@ const projectData = [
     <strong>Client:</strong> USA Education<br>
     <strong>Year:</strong> 2025<br>
     <strong>Role:</strong> Meta Ads Campaign Strategist<br>
-
     <strong>Desc:</strong> Planned and executed high-performing Meta Ads campaigns for Smart USA Education to boost student enrollment for multiple academic programs across the United States.<br>
-
     <strong>Overview:</strong> Designed, tested, and optimized multiple ad sets tailored to various education programs, target age groups, and regional audience segments. Leveraged Meta Business Suite for precise targeting and data-driven campaign optimization.<br>
-
     <strong>Key Work:</strong> Strategic ad copywriting, creative visual development, audience segmentation, budget allocation, lead form optimization, and continuous A/B testing to improve performance and reduce costs.<br>
-
     <strong>Result:</strong> Generated 1,200+ qualified student leads, improved CTR by 40%, and significantly strengthened brand visibility among U.S.–based prospective students.<br>
   `,
     images: ["assets/img/meta3-1.jpeg", "assets/img/meta3-2.jpeg"]
@@ -268,28 +258,12 @@ const projectData = [
     <strong>Overview:</strong> Delivered fully customized posters tailored to brand identity, campaign goals, and platform formats. Expertise in modern design trends, color psychology, typography, and conversion-focused layouts for digital ads.<br>
 
     <strong>Poster Types I Create:</strong><br>
-    • Digital Marketing Course Posters<br>
-    • Real Estate Project Ads<br>
-    • Gym Membership Offers<br>
-    • Restaurant Menu / Food Ads<br>
-    • Coaching Classes Promotions<br>
     • Product Launch / Product Promo Graphics<br>
     • Social Media Ads (Instagram/Facebook)<br>
-    • Festival Sale Posters<br>
-    • Instagram Posts & Reel Covers<br>
-
-    <strong>Design Styles Available:</strong><br>
-    Minimal · Modern · Professional · Gradient · Dark Theme · Light Theme · Bold Colors · Canva Style · 3D Elements<br>
-
     <strong>Formats Delivered:</strong><br>
     • Instagram Square (1080×1080)<br>
     • Story / Vertical Ads (1080×1920)<br>
     • Facebook/LinkedIn Post Sizes<br>
-    • A4/A3 Print-Ready Posters (High-Resolution PDF)<br>
-
-    <strong>Process:</strong> I collect brand details → create 2–3 design concepts → finalize layout → deliver polished creatives for social media or ads.<br>
-
-    <strong>Result:</strong> Multiple businesses saw improved engagement, higher conversions, and stronger brand presence through visually appealing and high-impact poster designs.<br>
   `,
     images: [
       "assets/img/graphic-1.jpeg",
@@ -300,7 +274,37 @@ const projectData = [
       "assets/img/graphic-6.jpeg",
       "assets/img/graphic-7.jpeg"
     ]
-  }
+  },
+
+{
+  id: "LocalSEO1",
+  title: "Local SEO & Google Business Optimization",
+  category: "SEO",
+  desc: `
+    <strong>Service:</strong> Google Business Profile Optimization<br>
+    <strong>Year:</strong> 2025<br>
+    <strong>Role:</strong> Local SEO Specialist<br>
+
+    <strong>Desc:</strong> Local SEO setup to improve Google Maps ranking and visibility.<br>
+
+    <strong>Key Work:</strong><br>
+    • Google Business Setup<br>
+    • NAP Fix<br>
+    • Local Citations<br>
+    • Local Keywords<br>
+    • Geo-tag Photos<br>
+    • Competitor Analysis<br>
+    • 3-Pack Optimization<br>
+  `,
+  images: [
+    "assets/img/seo1.jpg",
+    "assets/img/seo-chd.jpg",
+    "assets/img/seo-moh.jpg",
+     "assets/img/seo-fir.jpg"
+   
+  ]
+}
+
 ];
 
 // === PAGINATION + SEARCH ===
